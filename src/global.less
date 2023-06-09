@@ -1,0 +1,43 @@
+@import "~antd/dist/reset.css";
+html,
+body,
+#root {
+	height: 100%;
+}
+.money {
+	span {
+		color: #ff4d4f;
+	}
+}
+.colorWeak {
+	filter: invert(80%);
+}
+
+.ant-layout {
+	min-height: 100vh;
+}
+
+canvas {
+	display: block;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+.ant-page-header-heading {
+	//去除header
+	display: none !important;
+}
+
+.ant-image-img {
+	//Image组件图片居中裁剪
+	object-fit: cover;
+}
